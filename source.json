@@ -1,0 +1,38 @@
+{
+  "name": "FeeKee",
+  "apps": [
+    {
+      "name": "FeeKee",
+      "bundleIdentifier": "app.feekee.ios",
+      "marketplaceID": "6751296744",
+      "developerName": "LocoVoco",
+      "subtitle": "",
+      "localizedDescription": "",
+      "iconURL": "https://feekee.app/assets/logo.png",
+      "tintColor": "#A08BEB",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://locovoco.github.io/8ec8c228-bd24-4a50-903f-0a1fd7e70eb4/manifest.json",
+          "size": 70000000,
+          "version": "1.35",
+          "buildVersion": "1",
+          "date": "2025-09-16T07:00:00+01:00"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+            "com.apple.developer.applesignin",
+            "aps-environment"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Camera usage is required for video calls and the verification process.",
+          "NSMicrophoneUsageDescription": "Microphone usage is required for video calls.",
+          "NSPhotoLibraryUsageDescription": "Photo library usage is required to send photo messages in chat.",
+          "NSLocationWhenInUseUsageDescription": "Your location country is used to help us find matching content creators. Your exact location is never shared."
+        }
+      }
+    }
+  ]
+}
